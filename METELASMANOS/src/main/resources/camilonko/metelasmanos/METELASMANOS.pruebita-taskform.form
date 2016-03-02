@@ -1,0 +1,14 @@
+
+<form id="1542390253">
+<property name="name" value="METELASMANOS.pruebita-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="nombre" type="InputText" id="1721072348">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nombre (nombre)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="nombre"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="nombre" value="java.lang.String" id="nombre"/>
+</form>
