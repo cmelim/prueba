@@ -9,12 +9,15 @@ public class Persona implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "nombre")
+   @org.kie.api.definition.type.Label("nombre")
    private java.lang.String nombre;
-   @org.kie.api.definition.type.Label(value = "edad")
+   @org.kie.api.definition.type.Label("edad")
    private java.lang.Integer edad;
-   @org.kie.api.definition.type.Label(value = "sexo")
+   @org.kie.api.definition.type.Label("sexo")
    private java.lang.String sexo;
+
+   @org.kie.api.definition.type.Label(value = "estadoCivil")
+   private java.lang.String estadoCivil;
 
    public Persona()
    {
@@ -50,12 +53,23 @@ public class Persona implements java.io.Serializable
       this.sexo = sexo;
    }
 
+   public java.lang.String getEstadoCivil()
+   {
+      return this.estadoCivil;
+   }
+
+   public void setEstadoCivil(java.lang.String estadoCivil)
+   {
+      this.estadoCivil = estadoCivil;
+   }
+
    public Persona(java.lang.String nombre, java.lang.Integer edad,
-         java.lang.String sexo)
+         java.lang.String sexo, java.lang.String estadoCivil)
    {
       this.nombre = nombre;
       this.edad = edad;
       this.sexo = sexo;
+      this.estadoCivil = estadoCivil;
    }
 
 }
