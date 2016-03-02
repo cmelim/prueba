@@ -1,0 +1,51 @@
+
+<form id="1542390253">
+<property name="name" value="METELASMANOS.pruebita-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="nombre" type="InputText" id="1721072348">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nombre (nombre)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="nombre"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="flag" type="CheckBox" id="1435643601">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;flag (flag)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="flag"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="Persona_edad" type="InputTextInteger" id="332108315">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;edad (Persona)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Persona/edad"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="Persona_estadoCivil" type="InputText" id="1423389266">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;estadoCivil (Persona)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Persona/estadoCivil"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="Persona_nombre" type="InputText" id="2080293151">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nombre (Persona)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Persona/nombre"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="Persona_sexo" type="InputText" id="1490315753">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;sexo (Persona)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Persona/sexo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#A7E690" type="dataModelerEntry" outId="Persona" value="camilonko.metelasmanos.Persona" id="Persona"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="flag" value="java.lang.Boolean" id="flag"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="nombre" value="java.lang.String" id="nombre"/>
+</form>
