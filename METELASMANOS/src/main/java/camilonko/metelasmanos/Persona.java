@@ -16,8 +16,11 @@ public class Persona implements java.io.Serializable
    @org.kie.api.definition.type.Label("sexo")
    private java.lang.String sexo;
 
-   @org.kie.api.definition.type.Label(value = "estadoCivil")
+   @org.kie.api.definition.type.Label("estadoCivil")
    private java.lang.String estadoCivil;
+
+   @org.kie.api.definition.type.Label(value = "flag")
+   private java.lang.Boolean flag;
 
    public Persona()
    {
@@ -63,13 +66,25 @@ public class Persona implements java.io.Serializable
       this.estadoCivil = estadoCivil;
    }
 
+   public java.lang.Boolean getFlag()
+   {
+      return this.flag;
+   }
+
+   public void setFlag(java.lang.Boolean flag)
+   {
+      this.flag = flag;
+   }
+
    public Persona(java.lang.String nombre, java.lang.Integer edad,
-         java.lang.String sexo, java.lang.String estadoCivil)
+         java.lang.String sexo, java.lang.String estadoCivil,
+         java.lang.Boolean flag)
    {
       this.nombre = nombre;
       this.edad = edad;
       this.sexo = sexo;
       this.estadoCivil = estadoCivil;
+      this.flag = flag;
    }
 
 }
