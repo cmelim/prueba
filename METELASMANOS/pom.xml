@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>camilonko</groupId>
   <artifactId>METELASMANOS</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <name>METELASMANOS</name>
   <build>
     <plugins>
