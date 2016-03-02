@@ -1,13 +1,51 @@
 <scenario>
-  <name>testRegla</name>
+  <name>testRegla.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
-  <fixtures/>
+  <fixtures>
+    <fact-data>
+      <type>Persona</type>
+      <fieldData>
+        <field-data>
+          <name>edad</name>
+          <value>27</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>nombre</name>
+          <value>camilonko</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>estadoCivil</name>
+          <value></value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>p</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <execution-trace/>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>nombre</fieldName>
+          <expected>macho</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>p</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
+  </fixtures>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>camilonko.metelasmanos</packageName>
   <imports>
     <imports/>
   </imports>
-  <ksessions/>
+  <ksessions>
+    <string>defaultKieSession</string>
+  </ksessions>
 </scenario>
