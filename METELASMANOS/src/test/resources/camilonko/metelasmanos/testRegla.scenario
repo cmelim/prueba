@@ -8,37 +8,44 @@
       <fieldData>
         <field-data>
           <name>edad</name>
-          <value>27</value>
+          <value>34</value>
           <nature>4</nature>
         </field-data>
         <field-data>
           <name>nombre</name>
-          <value>camilonko</value>
+          <value>pelao</value>
           <nature>4</nature>
         </field-data>
         <field-data>
           <name>estadoCivil</name>
-          <value></value>
+          <value>casado</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
       <name>p</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>7</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>nombre</fieldName>
-          <expected>macho</expected>
+          <expected>gay</expected>
+          <actualResult>pelao</actualResult>
+          <successResult>true</successResult>
+          <explanation>[p] field [nombre] was [gay].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>p</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2016-03-02 18:40:06.251 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>camilonko.metelasmanos</packageName>
