@@ -86,5 +86,9 @@ public class Persona implements java.io.Serializable
       this.estadoCivil = estadoCivil;
       this.flag = flag;
    }
+   
+   public Persona()
+   {
+   }
 
 }
