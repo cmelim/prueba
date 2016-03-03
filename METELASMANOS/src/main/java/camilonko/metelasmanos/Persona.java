@@ -87,8 +87,6 @@ public class Persona implements java.io.Serializable
       this.flag = flag;
    }
    
-   public Persona()
-   {
-   }
+ 
 
 }
